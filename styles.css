@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Plus Jakarta Sans';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.btn1 {
+    background-color: #13183F;
+    height: 48px;
+    width: 140px;
+    border-radius: 28px;
+}
+
+.btn1:hover {
+    background: #666CA3;
+}
+
+.btn2 {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    height: 56px;
+    width: 167px;
+    border-radius: 31.5px;
+}
+
+.btn2:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.btn3 {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    height: 48px;
+    width: 140px;
+    border-radius: 28px;
+}
+
+.btn3:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+.content {
+    width: 343px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    margin-top: 16px;
+}
+
+header img {
+    height: 28px;
+}
+
+.main-section {
+    width: 100%;
+}
+
+.main-section h1 {
+    margin-top: 38px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50.4px;
+}
+
+.txt-main {
+    margin-top: 26px;
+    margin-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+}
+
+.hero-group {
+    width: 100%;
+    height: 413px;
+    position: relative;
+}
+
+.hero-group img {
+    height: 253px;
+    margin-top: 70px;
+    margin-left: 45px;
+}
+
+.members, .hours {
+    position: absolute;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 34px 54px rgba(6, 22, 141, 0.158854);
+}
+
+.members {
+    width: 105px;
+    background-color: #FFFFFF;
+    right: 8px;
+    top: 46px;
+}
+
+.hours {
+    width: 155px;
+    background-color: #FFFFFF;
+    left: 8px;
+    top: 247px;
+}
+
+.txt-hero {
+    margin-top: 16px;
+    margin-left: 20px;
+    color: #83869A;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.num-hero {
+    color: #13183F;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40.32px;
+    margin-left: 20px;
+}
+
+.content2 {
+    width: 100%;
+    height: 1695px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.check-out {
+    width: 343px;
+    height: 120px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-out p {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    width: 286px;
+}
+
+.card {
+    width: 343px;
+    height: 259px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+}
+
+.card img {
+    margin-top: -24px;
+    margin-left: 28px;
+}
+
+.card h2 {
+    margin-top: 24px;
+    margin-left: 28px;
+    color: #13183F;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25.2px;
+}
+
+.txt-card {
+    margin-top: 16px;
+    margin-left: 28px;
+    color: #83869A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.get-started-card {
+    margin-left: 28px;
+    margin-top: 24px;
+    color: #F74780;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+footer {
+    width: 375px;
+    height: 120px;
+    background-color: #13183F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer img {
+    margin-left: 16px;
+}
+.btn3 {
+    margin-right: 16px;
+}
