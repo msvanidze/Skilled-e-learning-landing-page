@@ -237,6 +237,7 @@ footer {
 footer img {
     margin-left: 16px;
 }
+
 .btn3 {
     margin-right: 16px;
 }
@@ -332,6 +333,77 @@ footer img {
         margin-right: 11px;
         /* margin-right: 1.594%; */
     }
+
+
+
+
+
+
+}
+
+@media (min-width: 1440px) {
+    .content {
+        width: 1110px;
+        /* width: 90%; */
+    }
+
+    .btn1 {
+        height: 56px;
+        width: 167px;
+        margin-right: 165px;
+    }
+
+    header img {
+        height: 45px;
+        margin-left: 165px;
+    }
+
+    header {
+        height: 56px;
+        margin-top: 29px;
+    }
+
+    .content3 {
+        /* max-width: 90%; */
+        max-width: 1110px;
+        margin-bottom: 0;
+    }
+
+    .check-out {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        width: 350px;
+        height: 322px;
+        /* margin-right: 1.594%; */
+    }
+
+    .card {
+        width: 350px;
+        height: 322px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .card-margin {
+        margin-right: 0;
+        /* margin-right: 1.594%; */
+    }
+
+
+
+
+    footer img {
+        margin-left: 165px;
+        height: 45px;
+    }
+
+    .btn3 {
+        margin-right: 165px;
+        height: 56px;
+        width: 167px;
+    }
+
 
 
 
